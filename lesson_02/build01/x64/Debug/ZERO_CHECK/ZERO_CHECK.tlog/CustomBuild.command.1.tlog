@@ -1,0 +1,10 @@
+^C:\ECLIPSE\OTUS\OTUS-CPP-BASICS\LESSON_02\BUILD01\CMAKEFILES\679B77055759472BF86EADF162062210\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/eclipse/otus/otus-cpp-basics/lesson_02 -BC:/eclipse/otus/otus-cpp-basics/lesson_02/build01 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/eclipse/otus/otus-cpp-basics/lesson_02/build01/01.hello_world.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
