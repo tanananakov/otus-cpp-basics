@@ -1,3 +1,0 @@
-C:/eclipse/otus/otus-cpp-basics/lesson_02/build01/CMakeFiles/hello_world.dir
-C:/eclipse/otus/otus-cpp-basics/lesson_02/build01/CMakeFiles/ALL_BUILD.dir
-C:/eclipse/otus/otus-cpp-basics/lesson_02/build01/CMakeFiles/ZERO_CHECK.dir
